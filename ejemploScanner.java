@@ -8,6 +8,6 @@ public class ejemploScanner {
         String myText = spaceInMemory.nextLine();
         System.out.println("Hey y'all");
         /*Se imprime el valor leido*/
-        System.out.println(myText);
+        System.out.print("El mensaje ingresado es: " + myText);
     }
 }
