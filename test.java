@@ -1,13 +1,12 @@
-import java.util.Scanner;
+import java.util.Random;
 
 public class test {
-    public int metodo(String v) {
-        Scanner sc = new Scanner(v);
-        int i = 0;
-        while(sc.hasNext()) {
-            sc.next();
-             i++;
+    public static void main(String[] args) {
+        Random r = new Random();
+        int num = r.nextInt(2);
+        for (int i = 0; i < 500; i++) {
+            System.out.println(num);
+            num = r.nextInt(11);
         }
-        return i;
-      }
+    }
 }
